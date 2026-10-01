@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SiNG BOX Noraebang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="SiNG BOX Noraebang">
+      <span class="logo-main">SiNG<br>BOX</span>
+      <span class="logo-sub">NORAEBANG</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Avaa valikko" aria-expanded="false">☰</button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#top">Etusivu</a>
+      <a href="#menu">Menu</a>
+      <a href="#rooms">Huoneet</a>
+      <a href="#events">Yksityistilaisuudet</a>
+      <a href="#about">Meistä</a>
+      <a href="#contact">Yhteystiedot</a>
+    </nav>
+
+    <a class="header-cta" href="booking.html">Varaa huone</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-frame">
+      <div class="hero-copy">
+        <span class="section-tag"><b>1</b> HERO</span>
+        <p class="eyebrow">KARAOKE · COCKTAILIT · ASIAN BITES</p>
+        <h1>A LITTLE SEOUL<br>AFTER DARK.</h1>
+        <p class="hero-lead">Cocktaileja · aasialaisia makuja · yksityiskaraokea</p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="booking.html">Varaa huone</a>
+          <a class="btn btn-outline" href="#experience">Tutustu SiNG BOXiin</a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <img src="images/photo1.png" alt="SiNG BOX tunnelmallinen lounge" />
+        <div class="neon-sign">SiNG<br>BOX</div>
+      </div>
+    </section>
+
+    <section class="experience section-frame" id="experience">
+      <div class="section-heading-row">
+        <span class="section-tag"><b>2</b> THREE WAYS TO SING BOX</span>
+        <h2>THREE WAYS TO SING BOX</h2>
+      </div>
+
+      <div class="experience-grid">
+        <a class="experience-card" href="#cocktails">
+          <img src="images/photo2.png" alt="Cocktail" />
+          <div class="experience-overlay">
+            <h3>DRINK</h3>
+            <p>Signature-cocktailit Seoul-twistillä.</p>
+            <span class="round-arrow">→</span>
+          </div>
+        </a>
+
+        <a class="experience-card" href="#food">
+          <img src="images/photo3.png" alt="Asian bites" />
+          <div class="experience-overlay">
+            <h3>EAT</h3>
+            <p>Aasialaisia makuja jaettavaksi.</p>
+            <span class="round-arrow">→</span>
+          </div>
+        </a>
+
+        <a class="experience-card" href="#rooms">
+          <img src="images/hongdae.png" alt="Yksityinen karaokehuone" />
+          <div class="experience-overlay">
+            <h3>SING</h3>
+            <p>Oma yksityinen noraebang.</p>
+            <span class="round-arrow">→</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="bar-feature section-frame" id="about">
+      <div class="feature-copy">
+        <span class="section-tag"><b>3</b> THE BAR</span>
+        <h2>COME FOR A DRINK.<br>STAY FOR A SONG.</h2>
+        <p>Sinun ei tarvitse varata karaokea tullaksesi SiNG BOXiin. Poikkea cocktaileille, aasialaisille biteille ja myöhäisillan Seoul-tunnelmaan.</p>
+        <a class="btn btn-outline" href="#menu">Katso baari</a>
+      </div>
+      <div class="feature-image">
+        <img src="images/photo1.png" alt="SiNG BOX baari" />
+      </div>
+    </section>
+
+    <section class="menu-pair section-frame" id="menu">
+      <div class="menu-block" id="cocktails">
+        <span class="section-tag"><b>4</b> SIGNATURE COCKTAILS</span>
+        <h2>SIGNATURE COCKTAILS</h2>
+        <div class="mini-grid">
+          <article class="mini-card">
+            <img src="images/photo2.png" alt="Seoul Searching cocktail" />
+            <h3>SEOUL SEARCHING</h3>
+            <p>Passionfruit · Vanilla · Bubbles</p>
+          </article>
+          <article class="mini-card">
+            <img src="images/photo2.png" alt="Pink Mic cocktail" />
+            <h3>PINK MIC</h3>
+            <p>Lychee · Hibiscus · Lime</p>
+          </article>
+          <article class="mini-card">
+            <img src="images/photo2.png" alt="Gangnam Glow cocktail" />
+            <h3>GANGNAM GLOW</h3>
+            <p>Yuzu · Elderflower · Gin</p>
+          </article>
+          <article class="mini-card">
+            <img src="images/photo2.png" alt="Hot Honey cocktail" />
+            <h3>HOT HONEY</h3>
+            <p>Tequila · Honey · Chilli · Lime</p>
+          </article>
+        </div>
+        <a class="btn btn-outline center-btn" href="#">Katso koko juomalista</a>
+      </div>
+
+      <div class="menu-block" id="food">
+        <span class="section-tag"><b>5</b> ASIAN BITES</span>
+        <h2>ASIAN BITES</h2>
+        <p class="menu-subtitle">MADE TO SHARE. OR NOT.</p>
+        <div class="mini-grid food-grid">
+          <article class="mini-card"><img src="images/photo3.png" alt="Kimbap"><h3>KIMBAP</h3></article>
+          <article class="mini-card"><img src="images/photo3.png" alt="Spring rolls"><h3>SPRING ROLLS</h3></article>
+          <article class="mini-card"><img src="images/photo3.png" alt="Noodles"><h3>NOODLES</h3></article>
+          <article class="mini-card"><img src="images/photo3.png" alt="Bao"><h3>BAO</h3></article>
+        </div>
+        <a class="btn btn-outline center-btn" href="#">Katso ruokamenu</a>
+      </div>
+    </section>
+
+    <section class="rooms-events section-frame">
+      <div class="rooms-block" id="rooms">
+        <span class="section-tag"><b>6</b> PRIVATE KARAOKE ROOMS</span>
+        <h2>PRIVATE KARAOKE ROOMS</h2>
+        <div class="rooms-grid">
+          <article class="room-card"><img src="images/hongdae.png" alt="Hongdae"><h3>HONGDAE</h3><p>Jopa 4 hengelle</p><span>→</span></article>
+          <article class="room-card"><img src="images/seoul.png" alt="Seoul"><h3>SEOUL</h3><p>Jopa 4 hengelle</p><span>→</span></article>
+          <article class="room-card"><img src="images/gangnam.png" alt="Gangnam"><h3>GANGNAM</h3><p>Jopa 6 hengelle</p><span>→</span></article>
+          <article class="room-card"><img src="images/itaewon.png" alt="Itaewon"><h3>ITAEWON</h3><p>Jopa 4–6 hengelle</p><span>→</span></article>
+        </div>
+      </div>
+
+      <aside class="events-block" id="events">
+        <span class="section-tag"><b>7</b> PRIVATE EVENTS</span>
+        <h2>YOUR NIGHT.<br>YOUR SiNG BOX.</h2>
+        <p>Varaa tila synttäreihin, yritysiltoihin ja yksityisiin juhliin.</p>
+        <div class="event-offer">
+          <small>PRIVATE HIRE MON–THU</small>
+          <strong>From €1,250 / 3 hours</strong>
+          <span>including €800 food & drink credit.</span>
+        </div>
+        <a class="btn btn-outline" href="#contact">Suunnittele tapahtuma</a>
+      </aside>
+    </section>
+
+    <section class="after-dark section-frame">
+      <div class="after-dark-copy">
+        <span class="section-tag"><b>8</b> SEOUL AFTER DARK</span>
+        <h2>SEOUL AFTER DARK.<br>IN HELSINKI.</h2>
+        <p>Cocktailit. Ruoka. Musiikki.<br>Ja oma karaokehuone.</p>
+        <a class="btn btn-outline" href="booking.html">Varaa ilta</a>
+      </div>
+      <div class="after-dark-image"><img src="images/photo1.png" alt="SiNG BOX after dark"></div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div>
+      <strong>SiNG BOX</strong>
+      <span>NORAEBANG · HELSINKI</span>
+    </div>
+    <div class="footer-links">
+      <a href="#top">Etusivu</a>
+      <a href="#rooms">Huoneet</a>
+      <a href="#menu">Menu</a>
+      <a href="booking.html">Varaa</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
